@@ -1,0 +1,124 @@
+* {
+    font-family:fantasy;
+}
+section {
+    background-color: #ddd3d3;
+    opacity: 84%;
+    box-shadow: 6px 6px;
+    margin-top: -4%
+}
+#sec1{
+    background-color: white;
+    box-shadow: none;
+    margin-top: 0%;
+    opacity: 100%;
+}
+ 
+header {
+    background-image: url(/asset/imagenes/design1_image1.jpg);
+    background-size: 129% 156%;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: left;
+    height: 460px;
+    margin-top: 0;
+}
+
+nav {
+
+    bottom: 92%;
+    right: 43%;
+    border: solid;
+    border-radius: 15px;
+    padding: 4px;
+    background: linear-gradient(to right, #ff000591, #fdfcfc);
+    position: fixed;
+}
+/*--------------lista----------*/
+li{
+    border: solid 3px black;
+    display: block;
+    padding: 1%;
+    text-align: center;
+    margin: 21%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    height: 299px;
+    font-size: 31px;
+    text-shadow: 2px 2px lightcoral;
+}
+#li1 {
+background-image: url(/asset/imagenes/design2_image1.jpg);
+background-size: contain;
+}
+#li2 {
+    background-image: url(/asset/imagenes/hockey1.jpg);
+    background-size: cover;
+}
+#li3 {
+    background-image: url(/asset/imagenes/hockey2.jpg);
+    background-size: cover;
+}
+/* ---------titulos, articulos---------- */
+
+h1 {
+    font-size: 41px;
+    color: black;
+    display: block;
+    text-align: left;
+    position: relative;
+    top: 80%;
+    text-shadow: 2px 2px indianred;
+    padding-left: 9%;
+}
+
+h2 {
+    text-align: left;
+    color: rgb(0, 0, 0); 
+    margin-top: 5%;
+    text-shadow: 2px 2px indianred;
+}
+
+#ti {
+    color: black;
+    display: inline;
+   border-style: none;
+   background: none;
+   text-decoration:underline;
+   box-shadow: none;
+}
+
+
+#art1 {
+    text-align: initial;
+}
+
+/* --------------imagenes -------------*/
+
+#IM {
+    display: inline;
+    position: absolute;
+    top: 54%;
+    left: 3%;
+    transform: scale(1.7);
+}
+
+#hockey1 {
+   display: none;
+}
+
+#hockey2 {
+    display: none;
+}
+
+#hockey3 {
+    display: none;
+}
+
+/* ---------etiqueta -------------*/
+
+a {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}

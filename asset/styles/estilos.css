@@ -1,0 +1,90 @@
+* {
+    font-family: cursive;
+}
+
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+header {
+    background-image: url(/asset/imagenes/design1_image1.jpg);
+    background-size: 100% 176%;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: center;
+    height: 231px;
+}
+
+nav {
+    float: left;
+    margin-right: 20px;
+}
+
+/* ---------titulos, articulos---------- */
+
+h1 {
+    font-size: 60px;
+    color: blue;
+}
+
+h2 {
+    text-align: center;
+    color: azure;
+    background-color: black;
+    padding-right: 206px;
+    margin: 0;
+}
+
+#ti {
+    display: inline;
+}
+
+article {
+    margin-top: 41px;
+    margin-left: 196px;
+}
+
+#art1 {
+    text-align: initial;
+}
+
+/* --------------imagenes -------------*/
+
+#IM {
+    display: inline;
+    position: absolute;
+    right: 17%;
+}
+
+#hockey1 {
+    position: absolute;
+    left: 78%;
+    top: 66%;
+    display: inline;
+    float: right;
+}
+
+#hockey2 {
+    transform: scale(0.9);
+    position: absolute;
+    top: 102%;
+    right: 78%
+}
+
+#hockey3 {
+    position: absolute;
+    left: 78%;
+    top: 66%;
+    display: inline;
+    float: right;
+}
+
+/* ---------etiqueta -------------*/
+
+a {
+    display: block;
+    font-size: 30px;
+    margin-top: 66px;
+    margin-bottom: 20px;
+}

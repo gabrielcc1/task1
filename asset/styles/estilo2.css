@@ -1,0 +1,109 @@
+* {
+    font-family: cursive;
+}
+
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+header {
+    background-image: url(/asset/imagenes/design2_image1.jpg);
+    background-size: 100% 176%;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: center;
+    height: 231px;
+}
+
+nav {
+    position: absolute;
+    bottom: 89%;
+    right: 8%;
+}
+
+/* ---------titulos, articulos---------- */
+
+h1 {
+    font-size: 41px;
+    color: blue;
+    position: relative;
+    bottom: 15%;
+    margin-top: 4%;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: solid black 3px;
+    padding-right: 49px;
+    margin: 0;
+}
+
+#ti {
+    color: black;
+    display: inline;
+   border-style: none;
+   background: none;
+   text-decoration:underline;
+   box-shadow: none;
+}
+
+article {
+    margin-top: 41px;
+    margin-left: 196px;
+}
+
+#art1 {
+    text-align: initial;
+}
+
+/* --------------imagenes -------------*/
+
+#IM {
+    display: inline;
+    position: absolute;
+    top: 66%;
+    left: 12%;
+    transform: scale(1.7);
+}
+
+#hockey1 {
+    position: absolute;
+    left: 78%;
+    top: 66%;
+    display: inline;
+    float: right;
+}
+
+#hockey2 {
+    transform: scale(0.9);
+    position: absolute;
+    top: 92%;
+    right: 78%
+}
+
+#hockey3 {
+    position: absolute;
+    left: 78%;
+    top: 66%;
+    display: inline;
+    float: right;
+}
+
+/* ---------etiqueta -------------*/
+
+a {
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 66px;
+    margin-bottom: 15px;
+    border: solid 1px black;
+    text-decoration: none;
+    background-color: cornflowerblue;
+    color: white;
+    box-shadow: 3px 3px #565353;
+}
+a:hover {
+    background-color: green;
+}
