@@ -1,55 +1,81 @@
 * {
     font-family:fantasy;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-section {
+
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+}
+#sec2 {
     background-color: #ddd3d3;
     opacity: 84%;
     box-shadow: 6px 6px;
-    margin-top: -4%
+    margin-bottom: 2%;
+    margin-top: 2%;
+    padding: 2%;
 }
-#sec1{
-    background-color: white;
-    box-shadow: none;
-    margin-top: 0%;
-    opacity: 100%;
-}
- 
+
+
 header {
     background-image: url(/asset/imagenes/design1_image1.jpg);
     background-size: 129% 156%;
     background-repeat: no-repeat;
-    display: block;
     background-position: left;
-    height: 460px;
-    margin-top: 0;
+    height: 370px;
+    display: flex;
+    flex-direction: row;
+    justify-content: revert;
+    border: solid 3px black;
 }
 
 nav {
 
-    bottom: 92%;
-    right: 43%;
     border: solid;
     border-radius: 15px;
     padding: 4px;
     background: linear-gradient(to right, #ff000591, #fdfcfc);
-    position: fixed;
+    box-shadow: 7px 11px rgb(6 6 6 / 24%);
+    align-self: center;
 }
-/*--------------lista----------*/
+
+nav>:hover {
+        background-color: rgb(248, 48, 48);
+        cursor: pointer;
+}
+/*--------------listas----------*/
 li{
     border: solid 3px black;
-    display: block;
-    padding: 1%;
     text-align: center;
-    margin: 21%;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    height: 299px;
+    height: 250px;
+    width: 57%;
     font-size: 31px;
     text-shadow: 2px 2px lightcoral;
+    display: block;
+    margin-left: 20%;
+    margin-bottom: 9%;
+    margin-top: 6%;
 }
+
+ul>:hover {
+    transition-duration: .3s, .8s;
+    transform: scale(1.30);
+}
+
 #li1 {
 background-image: url(/asset/imagenes/design2_image1.jpg);
-background-size: contain;
+background-size: cover;
+background-repeat: no-repeat;
 }
 #li2 {
     background-image: url(/asset/imagenes/hockey1.jpg);
@@ -59,24 +85,53 @@ background-size: contain;
     background-image: url(/asset/imagenes/hockey2.jpg);
     background-size: cover;
 }
+
+#ol1 {
+    list-style: lower-alpha;
+}
+
+ol>li {
+    margin-left: 4%;
+    margin-bottom: 1%;
+    margin-top: 3%;
+    border: none;
+    text-align: left;
+    height: 100%;
+    width: 95%;
+    font-size: initial;
+    text-shadow: none;
+    display: revert;
+}
+
+#unic {
+    list-style-type: circle;
+    margin-left: 4%;
+}
 /* ---------titulos, articulos---------- */
 
 h1 {
     font-size: 41px;
     color: black;
     display: block;
-    text-align: left;
-    position: relative;
-    top: 80%;
     text-shadow: 2px 2px indianred;
-    padding-left: 9%;
+    align-self:end;
+    margin-left: 1%;
 }
 
 h2 {
     text-align: left;
     color: rgb(0, 0, 0); 
-    margin-top: 5%;
+    margin-top: 3%;
     text-shadow: 2px 2px indianred;
+}
+
+h3 {
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+#h2rul {
+    text-align: center;
 }
 
 #ti {
@@ -96,11 +151,10 @@ h2 {
 /* --------------imagenes -------------*/
 
 #IM {
-    display: inline;
-    position: absolute;
-    top: 54%;
-    left: 3%;
-    transform: scale(1.7);
+    transform: scale(1.2);
+    align-self: end;
+    margin-left: 1%;
+    margin-bottom: 0%;
 }
 
 #hockey1 {
@@ -112,7 +166,8 @@ h2 {
 }
 
 #hockey3 {
-    display: none;
+    align-self: center;
+    order: 1;
 }
 
 /* ---------etiqueta -------------*/
@@ -121,4 +176,29 @@ a {
     font-size: 30px;
     text-decoration: none;
     color: black;
+    padding: 5px;
+}
+
+#prul{
+    text-align: center;
+}
+
+table {
+    border: solid;
+    text-align: center;
+    margin-left: 13%;
+    border-collapse: separate;
+    border-spacing: 26px;
+    width: 70%
+}
+table td:nth-child(1) {
+    width: 100px;
+}
+caption {
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px indianred;
+    font-size: x-large;
+}
+#tix {
+    text-decoration:underline;
 }

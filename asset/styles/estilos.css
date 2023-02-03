@@ -1,24 +1,41 @@
 * {
     font-family: cursive;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
     margin-left: 100px;
     margin-right: 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
     background-image: url(/asset/imagenes/design1_image1.jpg);
-    background-size: 100% 176%;
+    background-size: 100% 207%;
     background-repeat: no-repeat;
-    display: block;
+    margin-top: 3%;
     background-position: center;
     height: 231px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: solid 31px black;
 }
 
 nav {
-    float: left;
-    margin-right: 20px;
+    margin-top: 17px;
+}
+#sec1 {
+    margin-left: 27px;
+    margin-right: 27px;
 }
 
 /* ---------titulos, articulos---------- */
@@ -29,20 +46,17 @@ h1 {
 }
 
 h2 {
+    display: block;
     text-align: center;
     color: azure;
-    background-color: black;
-    padding-right: 206px;
-    margin: 0;
+    position: relative;
+    top: -11%;
 }
+
+
 
 #ti {
     display: inline;
-}
-
-article {
-    margin-top: 41px;
-    margin-left: 196px;
 }
 
 #art1 {
@@ -55,29 +69,28 @@ article {
     display: inline;
     position: absolute;
     right: 17%;
+    top: 39%;
 }
 
 #hockey1 {
-    position: absolute;
-    left: 78%;
-    top: 66%;
     display: inline;
     float: right;
+    order: 1;
+    align-self: center;
 }
 
 #hockey2 {
-    transform: scale(0.9);
-    position: absolute;
-    top: 102%;
-    right: 78%
+    display: inline;
+    float: right;
+    order: 1;
+    align-self: center;
 }
 
 #hockey3 {
-    position: absolute;
-    left: 78%;
-    top: 66%;
     display: inline;
     float: right;
+    order: 1;
+    align-self: center;
 }
 
 /* ---------etiqueta -------------*/
@@ -85,6 +98,9 @@ article {
 a {
     display: block;
     font-size: 30px;
-    margin-top: 66px;
-    margin-bottom: 20px;
+    margin-bottom: 58px;
+}
+
+li {
+    margin-bottom: 10%;
 }

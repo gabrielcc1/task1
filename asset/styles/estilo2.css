@@ -1,10 +1,15 @@
 * {
     font-family: cursive;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
     margin-left: 100px;
     margin-right: 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -14,12 +19,23 @@ header {
     display: block;
     background-position: center;
     height: 231px;
+    margin-top: 5%;
 }
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+     }
 
 nav {
     position: absolute;
-    bottom: 89%;
+    bottom: 86%;
     right: 8%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
 }
 
 /* ---------titulos, articulos---------- */
@@ -28,8 +44,7 @@ h1 {
     font-size: 41px;
     color: blue;
     position: relative;
-    bottom: 15%;
-    margin-top: 4%;
+    bottom: 24%;
 }
 
 h2 {
@@ -38,6 +53,15 @@ h2 {
     border: solid black 3px;
     padding-right: 49px;
     margin: 0;
+}
+#ti3 {
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+#p3 {
+    margin-left: 15%;
+    margin-top: 3%;
 }
 
 #ti {
@@ -48,47 +72,35 @@ h2 {
    text-decoration:underline;
    box-shadow: none;
 }
-
-article {
-    margin-top: 41px;
-    margin-left: 196px;
-}
-
 #art1 {
-    text-align: initial;
+    margin-left: 10%;
+    margin-top: 3%;
 }
 
 /* --------------imagenes -------------*/
 
 #IM {
-    display: inline;
     position: absolute;
-    top: 66%;
-    left: 12%;
+    top: 57%;
+    left: 8%;
     transform: scale(1.7);
 }
 
 #hockey1 {
     position: absolute;
-    left: 78%;
-    top: 66%;
-    display: inline;
-    float: right;
+    align-self: flex-end;
 }
 
 #hockey2 {
     transform: scale(0.9);
-    position: absolute;
-    top: 92%;
-    right: 78%
+    order: 1;
+    align-self: center;
 }
 
 #hockey3 {
     position: absolute;
     left: 78%;
-    top: 66%;
-    display: inline;
-    float: right;
+    top: 57%;
 }
 
 /* ---------etiqueta -------------*/
@@ -106,4 +118,10 @@ a {
 }
 a:hover {
     background-color: green;
+}
+
+li {
+    margin-bottom: 4%;
+    margin-top: 4%;
+    margin-left: 12%;
 }
