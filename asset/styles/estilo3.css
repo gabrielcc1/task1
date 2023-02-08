@@ -6,8 +6,6 @@
 }
 
 body {
-    margin-left: 50px;
-    margin-right: 50px;
     display: flex;
     flex-direction: column;
 }
@@ -21,9 +19,9 @@ main {
     background-color: #ddd3d3;
     opacity: 84%;
     box-shadow: 6px 6px;
-    margin-bottom: 2%;
-    margin-top: 2%;
+    margin: 1%;
     padding: 2%;
+    margin-top: 5%;
 }
 
 
@@ -40,13 +38,14 @@ header {
 }
 
 nav {
-
     border: solid;
     border-radius: 15px;
     padding: 4px;
     background: linear-gradient(to right, #ff000591, #fdfcfc);
     box-shadow: 7px 11px rgb(6 6 6 / 24%);
-    align-self: center;
+    position: absolute;
+    right: 27%;
+    top: 58%;
 }
 
 nav>:hover {
@@ -183,6 +182,8 @@ a {
     text-align: center;
 }
 
+/* ---------tabla -------------*/
+
 table {
     border: solid;
     text-align: center;
@@ -202,3 +203,101 @@ caption {
 #tix {
     text-decoration:underline;
 }
+
+form {
+    text-align: initial;
+    line-height: 32px;
+}
+
+#bottom{
+    border: solid black;
+    font-size:x-large;
+    margin-top: 1%;
+}
+
+#bottom:hover {
+    background-color: #ff000087;
+    cursor: pointer;
+}
+div {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    
+    header{
+        width: 97%;
+        height: 215px;
+        margin-left: 1px;
+        }
+
+    h1 {
+        font-size: larger;
+    }
+    #IM {
+        transform: scale(0.7);
+    }
+    nav {
+        position: absolute;
+        top: 42%;
+        right: 4%;
+        left: 2%;
+        height: 67px;
+    }
+    a {
+        font-size: larger;
+    }
+    li {
+        width: 95%;
+    margin-left: 5px;
+    margin-right: 1px;
+    font-size: medium;
+    }
+    section {
+        margin-top: 24%;
+    }
+    ul>:hover {
+        transition-duration: inherit;
+        transform: none;
+    }
+    h2 {
+        margin-left: 7px;
+    }
+    #sec2 {
+        margin-top: 28%;
+    }
+    table {
+        margin-left: initial;
+        border-spacing: 8px;
+        font-size: small;
+    }
+    iframe {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+    nav {
+        position: absolute;
+        top: 76%;
+        right: 4%;
+        left: 2%;
+        height: 58px;
+    }
+    section {
+        margin-top: 10%;
+    }
+    #sec2 {
+        margin-top: 13%;
+}
+iframe {
+    margin-top: 10px;
+}
+}
+
+
